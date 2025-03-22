@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> advanced html elements in action</title>
+</head>
+<body>
+<h1>lists</h1>
+<p>below is a list of all my favorite fruits:</p>
+<ol tyepe="I">
+    <li>apple</li>
+    <li>water melon</li>
+    <li>mangoe</li>
+    <li>pineapple</li>
+    <li>orange</li>
+</ol>
+<hr>
+<h2>a table of my contacts</h2>
+<p>below is a collection of my important contacts</p>
+<table>
+    <tr>
+        <th>first name</th>
+        <th>last name</th>
+        <th>phone number</th>
+    </tr>
+    <tr>
+        <td>edith</td>
+        <td>njoki</td>
+        <td>0726775796</td>
+    </tr>
+    <tr>
+        <td>Julius</td>
+        <td>Nganga</td>
+        <td>0722911611</td>
+    </tr>
+    <tr>
+        <td>silvia</td>
+        <td>Waihura</td>
+        <td>0712677564</td>
+    </tr>
+    <tr>
+        <td>Wycliff</td>
+        <td>ndiki</td>
+        <td>0740885259</td>
+    </tr>
+    <tr>
+        <td>alice</td>
+        <td>kosgei</td>
+        <tD>0720818920</tD>
+    </tr>
+</table>
+<hr>
+<h2>some image now</h2>
+<img src="#" alt="An awesome image " widht="200px" height="120px">
+<br>
+<h2>user registration</h2>
+<form>
+    <label for="fname">First Name</label>
+<input type="text" id="fname" name="fname" placeholder="type your first name" required><br>
+<label for="laname">lastname</label>
+<input type="text" id="laname" name="laname" placeholder="type your last name" required><br>
+<label for="email">Email ID</label>
+<input type="email" id="Email" name="Email" placeholder="TYPE YOUR VALID EMAIL" required><br>
+<label for="username">username</label>
+<input type="text" id="username" name="username" placeholder="type your username" minlength="8" maxlength="20" required pattern="[a-zA-z0-9]""><br>
+<label for="password">password</label>
+<input type="password" id="password" name="password" placeholder="type your password" required minlength="6" maxlength="20"><br>
+<label for="dob">Date of birth</label>
+<input type="date" id="dob" name="dob"><br>
+<fieldset>
+    <legend>kindly select your gender</legend>
+        <label for="male"> </label>
+        <input type="radio" id="male" name="gender"><br>
+        <label for="female">female</label>
+        <input type="radio" id="female" name="female"><br>
+</fieldset>
+<select id="country" name="country">
+    <option disabled selected>Kindly choose your country of residence</option>
+    <option value="ke">Kenya</option>
+    <option value="tz">Taznzania</option>
+    <option value="ug">Uganda</option>
+    <option value="ethiopia">ethiopia</option>
+    <option value="eritrea">Eritrea</option>
+    <option value="djibouti">Djibouti</option>
+</select><br>
+<label for="county">county of residence</label>
+<input list="county" id="county" name="county">
+<datalist id="county">
+    <option value="na">Nairobi</option>
+    <option value="ki">Kisumu</option>
+    <option value="mu">Muranga</option>
+    <option value="em">Embu</option>
+    <option value="kia">Kiambu</option>
+    <option value="mo">Mombasa</option>
+    <option value="kir">Kirinyaga</option>   
+    <option value="bom">Bomet</option>
+</datalist><br>
+<p>Do you consent to your information been used?</p>
+<label for="checkbox">yes</label>
+<input type="checkbox" id="checkbox" name="terms"><br>
+<label for="checkbox">no</label>
+<input type="checkbox" id="checkbox" name="terms"><br>
+<input type="reset" value="reset"><br>
+<input type="submit" value="submit"><br>
+</form>
+</body>
+</html>
